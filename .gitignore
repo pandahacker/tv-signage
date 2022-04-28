@@ -64,6 +64,8 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+public/slides/
+
 
 # Yarn Integrity file
 .yarn-integrity
