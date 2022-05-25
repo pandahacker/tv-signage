@@ -64,7 +64,10 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
-public/slides/
+public/slides/*
+files
+.DS_Store
+
 
 
 # Yarn Integrity file
