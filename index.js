@@ -18,8 +18,9 @@ app.use(
 );
 
 app.get("/upload", (req, res) => {
-  console.log(req.ip);
+  //console.log(req.ip);
   ip = req.ip
+  ip = ip.slice(0, 5);
   if(ip === process.env.HOME_ || ip === process.env.WORK) {
     res.sendFile(path.join(__dirname, "upload.html"));
   }else{
